@@ -1,5 +1,6 @@
-import qualified Constants
 module Functions where
+import qualified Constants
+
 ln :: Double -> Double 
 ln value = log(value)/log(2.7182818281)
 -- Calculate ln value
